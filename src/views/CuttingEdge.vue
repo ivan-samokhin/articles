@@ -6,7 +6,7 @@
 <div class="article_wrapper">
 <header class="fake_browser_top"> 
   <img src="/cutting/browser-top.svg" alt=""> 
-  <div class="fake_url">https://fakearticles.com/article-about-ai</div>
+  <div class="fake_url">https://thecuttingedge.com/the-partner-you-always-dreamed-of.php</div>
 </header>
 
   <main id="CuttingEdge">
