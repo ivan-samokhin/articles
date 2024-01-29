@@ -25,6 +25,7 @@
     </section>
 
     <section class="main_text"> <img src="/cutting/text2.svg" alt=""></section>
+    <section class="main_text text-part2"> <img src="/cutting/text_part2.svg" alt=""></section>
    
   </main>
 </div>  
@@ -40,19 +41,17 @@ body {
 }
 
 .article_wrapper {
+  padding: 75px 0;
   width: 100%;
   background-color: #fefefe;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  
 }
 
 #CuttingEdge {
-  
-  padding-top: 50px;
   margin: auto;
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 100vh;
+  height: 92vh;
   
 }
 
