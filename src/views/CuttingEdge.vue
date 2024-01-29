@@ -41,7 +41,7 @@ body {
 
 .article_wrapper {
   width: 100%;
-
+  background-color: white;
   overflow-y: scroll;
   overflow-x: hidden;
 }
