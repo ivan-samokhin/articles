@@ -19,7 +19,7 @@
     </section>  
 
     <section class="title_block">
-      <img src="/cutting/headline2.svg" alt="">
+      <div class="headline_wrapper"><img src="/cutting/headline2.svg" alt=""></div>
       <div class="img_auth_wrapper"> <img src="/cutting/author.png" alt=""> </div>
       <div class="photo_wrapper"> <img src="/cutting/image.png" alt=""> </div>
     </section>
@@ -40,18 +40,20 @@ body {
 }
 
 .article_wrapper {
-  width: 100vw;
+  width: 100%;
 
   overflow-y: scroll;
   overflow-x: hidden;
 }
 
 #CuttingEdge {
+  
+  padding-top: 50px;
   margin: auto;
-  margin-top: 60px;
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 95vh;
+  height: 100vh;
+  
 }
 
 .fake_browser_top {
@@ -78,6 +80,7 @@ body {
   width: 100vw;
   height: 50px;
   display: block;
+  position: relative;
 }
 .top_bar img {
   
@@ -109,6 +112,10 @@ body {
   display: block;
   height: 150px;
   margin: auto;
+}
+.headline_wrapper {
+  padding-top: 10px;
+  border-top: 2px solid black;
 }
 
 .img_auth_wrapper {
