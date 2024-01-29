@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<div class="article_warpper">
+<div class="article_wrapper">
 <header class="fake_browser_top"> 
   <img src="/cutting/browser-top.svg" alt=""> 
   <div class="fake_url">https://fakearticles.com/article-about-ai</div>
