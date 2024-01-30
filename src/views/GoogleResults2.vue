@@ -42,7 +42,7 @@ import GoogleBar from '../components/GoogleBar.vue'
       <div class="google_res_item">
         <img class="google_res_top" src="/google/results/res_weather_top2.svg" alt="">
         <h3>Iceland forecasts</h3>
-        <<p>Weather conditions for travel in Iceland.</p>
+        <p>Weather conditions for travel in Iceland.</p>
         <p>Follow our travel blog to monitor icey road conditions.</p> 
       </div>
 
