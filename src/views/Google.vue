@@ -20,8 +20,8 @@ import GoogleSearch from '../components/GoogleSearch.vue'
       <div class="google_icons_wrapper">
         <span>Gmail</span>
         <span>Images</span>
-        <img class='material' src="/google/icons/apps.svg" alt="">
-        <img class='avatar' src="/google/icons/e-icon.svg" alt="">
+        <img class='material2' src="/google/icons/apps.svg" alt="">
+        <img class='avatar2' src="/google/icons/e-icon.svg" alt="">
       </div>
     </div>
     </section>
@@ -161,14 +161,14 @@ export default {
  
  
 }
-.google_icons_wrapper img.material {
+.google_icons_wrapper img.material2 {
   height: 25px;
   filter: invert(39%) sepia(11%) saturate(217%) hue-rotate(173deg) brightness(94%) contrast(92%);
   
   margin-left: 20px;
 
 }
-img.avatar {
+img.avatar2 {
   height: 45px;
   margin-left: 20px;
 }
