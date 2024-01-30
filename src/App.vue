@@ -6,7 +6,7 @@ import Google from './views/Google.vue'
 </script>
 
 <template>
-<Google/>
+<RouterView/>
 
 </template>
 
