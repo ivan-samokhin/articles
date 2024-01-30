@@ -127,6 +127,10 @@ export default {
   font-family: arial,sans-serif;
     font-weight: 400;
 }
+.google_res_item h3:hover {
+  text-decoration: underline;
+  cursor:pointer;
+}
 
 .google_res_item p {
   color: #4d5156;
@@ -148,9 +152,6 @@ export default {
 
 .ask_insert {
   width: 600px;
-  
-
-
 }
 
 </style>

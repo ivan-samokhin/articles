@@ -17,7 +17,7 @@ import GoogleBar from '../components/GoogleBar.vue'
 
 <main id="googlePageRes2">
 
-    <GoogleBar/>
+    <GoogleBar @go-results="$router.push({path:'/article'})"/>
 
     <section class="google_content">
 
