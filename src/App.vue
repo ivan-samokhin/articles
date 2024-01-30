@@ -5,8 +5,8 @@ import CuttingEdge from './views/CuttingEdge.vue'
 </script>
 
 <template>
- <RouterView></RouterView>
- <CuttingEdge/>
+<router-view/>
+
 </template>
 
 <style scoped>
