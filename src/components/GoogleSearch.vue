@@ -108,7 +108,11 @@ export default {
         },
         {
           trigger: 'remote weather s', 
-          items: ['Remote weather station','Remote weather station Iceland','Remote weather station jobs','Remote weather station sensor','Remote weather station information','Remote weather station cellular']
+          items: ['Remote weather station','Remote weather satellite','Remote weather station jobs','Remote weather station sensor','Remote weather station information','Remote weather station cellular']
+        },
+        {
+          trigger: 'remote weather st', 
+          items: ['Remote weather station','Remote weather station jobs','Remote weather station sensor','Remote weather station information','Remote weather station cellular']
         },
         {
           trigger: 'remote weather station I', 
