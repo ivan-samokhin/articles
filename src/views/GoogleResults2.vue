@@ -17,13 +17,13 @@ import GoogleBar from '../components/GoogleBar.vue'
 
 <main id="googlePageRes2">
 
-    <GoogleBar @go-results="$router.push({path:'/article'})"/>
+    <GoogleBar/>
 
     <section class="google_content">
 
       <div class="google_res_item">
         <img class="google_res_top" src="/google/results/res_st_top1.svg" alt="">
-        <h3>Welcome to the End of the World</h3>
+        <h3 @click="$router.push({path:'/article'})">Welcome to the End of the World</h3>
         <p>Jan 25, 2021 - Marta watches for her flock, while keeping an eye on</p>
         <p>incoming storms, from a remote farm in Iceland.</p> 
       </div>
