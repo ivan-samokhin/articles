@@ -18,13 +18,16 @@ import GoogleBar from '../components/GoogleBar.vue'
 
 <main id="dock_article">
   <section class="article_content sec1">
-  <img src="/google/dock_top2.png" alt="">
+  <img src="/google/dock_top3.png" alt="">
   </section>
   <section class="article_content sec2">
   <img src="/google/dock/text1.svg" alt="">
   </section>
   <section class="article_content sec3">
   <img src="/google/dock/anna2.jpg" alt="">
+  </section>
+  <section class="article_content sec4a">
+  <img src="/google/dock/text_names.svg" alt="">
   </section>
   <section class="article_content sec4">
   <img src="/google/dock/text2.svg" alt="">
@@ -95,7 +98,7 @@ export default {
   margin: auto;
   border-radius: 2px;
 }
-.sec2 {padding-bottom: 10px;}
+.sec2 {padding-bottom: 20px;}
 .sec2 img{
   width: 600px;
 }
@@ -104,8 +107,10 @@ export default {
   width: 900px;
   
 }
-
-.sec4 img {
+.sec4a img {
   width: 900px;
+}
+.sec4 img {
+  width: 600px;
 }
 </style>
