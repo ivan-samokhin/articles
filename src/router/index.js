@@ -13,7 +13,7 @@ const router = createRouter({
       component: CUttingEdge
     },
     {
-      path: '/',
+      path: '/google',
       name: 'google',
       component: Google
     },
