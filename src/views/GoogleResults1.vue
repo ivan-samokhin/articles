@@ -9,10 +9,10 @@ import GoogleBar from '../components/GoogleBar.vue'
 
 <template>
 <div class="page_wrapper">
-   <header class="fake_browser_top"> 
+   <!-- <header class="fake_browser_top"> 
       <img src="/google/icons/google_browser2.svg" alt=""> 
       <div class="fake_url">https://www.google.com/search?q=weather+in+icela&newwindow=1&sca_esv=8add31af34f47e86&sxsrf=ACQVn0-mzqdEnokyKzB3s-ZhMBUShkcEiA%3A1706621373681&ei=vfm4Zd-VKdGFhbIPjOehyAM&ved=0ahUKEwif</div>
-    </header>
+    </header>-->
     
 
 <main id="googlePageRes">

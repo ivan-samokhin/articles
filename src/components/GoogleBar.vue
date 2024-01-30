@@ -57,7 +57,7 @@ export default {
 
 .sticky_top {
   position: sticky;
-  top: 78px;
+  top: 0px;
   background-color: white;
 }
 

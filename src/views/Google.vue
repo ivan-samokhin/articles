@@ -8,10 +8,10 @@ import GoogleSearch from '../components/GoogleSearch.vue'
 
 <template>
 <div class="page_wrapper">
-  <header class="fake_browser_top"> 
+  <!-- <header class="fake_browser_top"> 
       <img src="/google/icons/google_browser.svg" alt=""> 
       <div class="fake_url">https://www.google.com/</div>
-    </header>
+    </header>-->
     
 
 <main id="googlePage">
@@ -100,7 +100,7 @@ export default {
   width: 100vw;
   height: 40px;
   background-color: white;
-  margin-top: 79px;
+  /*argin-top: 79px;*/
 }
 
 

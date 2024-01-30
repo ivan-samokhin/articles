@@ -10,10 +10,10 @@ import GoogleBar from '../components/GoogleBar.vue'
 
 <template>
 <div class="page_wrapper">
-   <header class="fake_browser_top"> 
+  <!-- <header class="fake_browser_top"> 
       <img src="/google/icons/dock_browser.svg" alt=""> 
       <div class="fake_url">https://www.thedock.com/welcome-to-the-end</div>
-    </header>
+    </header>-->
     
 
 <main id="dock_article">
@@ -65,11 +65,11 @@ export default {
 #dock_article {
   overflow-y: auto;
   overflow-x: hidden;
-  height: 92vh;
+  height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
-  margin-top: 75px;
+  margin-top: 0px;
  
 
   
